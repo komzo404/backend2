@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "backend app",
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "license": "ISC",
+  "author": "Ruslan Ismoilov",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "nodemon": "^3.1.14",
+    "uuid": "^14.0.0"
+  }
+}
