@@ -11,12 +11,14 @@ router.get('/',(req,res)=>{
 
 router.get('/products',(req,res)=>{
     res.render('products',{
-        title:"Products | Komzo"
+        title:"Products | Komzo",
+        isPoducts: true,
     })
 })
 router.get('/add',(req,res)=>{
     res.render('add',{
-        title:"ADD Products | Komzo"
+        title:"ADD Products | Komzo",
+        isadd:true,
     })
 })
 export default router
