@@ -15,9 +15,11 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "express-handlebars": "^9.0.1",
     "mongoose": "^9.7.0",
+    "mongosh": "^2.8.3",
     "nodemon": "^3.1.14",
     "uuid": "^14.0.0"
   }
